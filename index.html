@@ -1,29 +1,92 @@
-<!DOCTYPE html>
+
+</html><!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Iftikaar Gaffoor</title>
+    <meta name="description" content="Home Page of WDD 131 - Dynamic Web Fundamentals - Iftikaar Gaffoor">
+    <meta name="author" content="Iftikaar Gaffoor">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-<header>
-    <h1>
-        <nav>
-            <a href="https://byui.instructure.com/">LinkedIn</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
-            <a href="">Final project</a>
-        </nav>
-    </h1>
-</header>
-<main>
-    <section class="card"></section>
-    <section class="card"></section>
-</main>
-<footer>
-    <span id="currentyear"></span>
-    <p>Iftikaar Gaffoor South Africa</p>
-    <span id="Last Modified"></span>
-</footer>
 
+<body>
+    <header>
+        <h1>
+            WDD 131: Dynamic Web Fundamentals - Iftikaar Gaffoor
+        </h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jamessalva/">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/2?lang=eng&id=20#p20">Scripture</a>
+                </li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section class="card">
+            <div class="section-headings">
+                <h2>About Me</h2>
+            </div>
+            <div class="section-body about-me">
+                <div class="section-one"><img src="images/24991ebb-3051-4dcd-bc59-3663f2dc6bcb.jpeg" alt="image of iftikaar gaffoor">
+                    <p>My name is Iftikaar Gaffoor, I was born and raised in South Africa.A family of 10, 
+                        my 5 silblings including myself and ppaerents. Currently I am working but studying with BYU-Idaho under BYU Pathway World Wide
+                        Programme, studying towards a bachelor's degree in Software Development. I love spending time with my family </p>            
+                    </p>
+                </div>
+                <div class="section-two-title">
+                    <h3>Johannesburg, GP,ZN</h3>
+                    <hr>
+                </div>
+                <div class="section-two">
+                    <figure>
+                        <img src="images/download.png" alt="South African Flag">
+                        <figcaption>The South African Flag</figcaption>
+                    </figure>
+                    <p>South Africa is the country that has a rich history of diversified ethnic
+                        groups as well as different cultures that are embraced by it people. It is also rich with a lot of
+                        natural resources which are:gold,platinum,cobalt,diamond,titanium, coal, oil. South Africa has also
+                        big five wild animals that are the symbol of hope and peace. This beautiful country that has a
+                        history of division among it people who has learned to be tolerant and embrace each other. South
+                        Africa known to the natives as "Azania" is situated in the Southern hermisphere</p>
+        <a
+                            href="/images/download.png" target="_blank">Wikipedia</a> </p>
+                </div>
+            </div>
+
+        </section>
+        <section class="card">
+            <div class="section-headings">
+                <h2>Web Dev Resources</h2>
+            </div>
+            <div class="section-body web-dev">
+                <ul>
+                    <li><a href="https://w3schools.com/">w3schools</a></li>
+                    <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                    <li><a href="https://www.linkedin.com/learning/">LinkedIn Learning</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p> &copy; <span id="currentyear"></span> | Iftikaar Gaffoor | South Africa</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script defer src="scripts/getdates.js"></script>
 </body>
+
 </html>
